@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dina — AI CFO for the Private Markets</title>
+  <link href="https://fonts.cdnfonts.com/css/neue-machina" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #133918;
+      --primary: #ffedb6;
+      --accent-1: #b5a76e;
+      --accent-2: #8f7a3a;
+      --font: 'Neue Machina', sans-serif;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { background: var(--bg); color: var(--primary); font-family: var(--font); line-height:1.4; }
+    .container { width:90%; max-width:800px; margin:0 auto; text-align:center; padding:4rem 0; }
+    header { margin-bottom:2rem; }
+    header .logo { font-size:3rem; font-weight:600; letter-spacing:-2px; }
+    .hero h1 { font-size:2.5rem; margin-bottom:1.5rem; }
+    .btn { background: var(--primary); color: var(--bg); padding:0.75rem 2rem; border-radius:999px; font-weight:600; text-decoration:none; }
+    .carousel { margin:2rem 0; display:flex; justify-content:center; gap:0.5rem; }
+    .dot { width:10px; height:10px; background: var(--accent-1); border-radius:50%; opacity:0.6; }
+    .stats { margin:3rem 0; font-size:1.5rem; }
+    .feature { margin:3rem 0; }
+    .feature svg { width:100%; max-width:300px; height:auto; margin-top:1rem; }
+    .feature-group { display:flex; justify-content:space-around; flex-wrap:wrap; gap:2rem; margin-top:1rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">dina</div>
+    </header>
+    <section class="hero">
+      <h1>AI CFO for the Private Markets</h1>
+      <a href="https://cal.com/hashirjaffry/30min?overlayCalendar=true" target="_blank" class="btn">Book a call</a>
+    </section>
+    <div class="carousel">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+    <section class="stats">
+      <p>1/3 of startups fail because they run out of money.</p>
+      <p>This is due to poor cash flow planning.</p>
+    </section>
+    <section class="feature">
+      <p>Dina connects to your financial data and automatically ingests and normalizes records.</p>
+      <svg viewBox="0 0 300 150">
+        <polygon points="0,150 60,90 120,120 180,30 240,105 300,150" fill="var(--accent-2)" opacity="0.7"/>
+        <polygon points="0,150 60,70 120,100 180,50 240,80 300,150" fill="var(--accent-1)" opacity="0.7"/>
+      </svg>
+    </section>
+    <section class="feature">
+      <p>Dina transforms datasets into real-time, scenario-driven financial models.</p>
+      <div class="feature-group">
+        <svg viewBox="0 0 150 150">
+          <circle cx="60" cy="100" r="40" fill="var(--accent-2)" opacity="0.6"/>
+          <circle cx="110" cy="90" r="30" fill="var(--accent-1)" opacity="0.7"/>
+          <circle cx="40" cy="40" r="20" fill="var(--primary)" opacity="0.8"/>
+          <circle cx="100" cy="50" r="25" fill="var(--accent-1)" opacity="0.7"/>
+        </svg>
+        <svg viewBox="0 0 150 150">
+          <polyline points="0,130 30,80 60,100 90,60 120,90 150,30" fill="none" stroke="var(--accent-2)" stroke-width="3"/>
+          <polyline points="0,150 30,100 60,130 90,90 120,120 150,60" fill="none" stroke="var(--accent-1)" stroke-width="3"/>
+        </svg>
+      </div>
+    </section>
+    <section class="feature">
+      <p>Dina answers your questions in plain language, with precise, auditable insights.</p>
+      <svg viewBox="0 0 200 200">
+        <polygon points="100,20 160,80 140,160 60,160 40,80" fill="var(--accent-2)" opacity="0.5" stroke="var(--accent-2)" stroke-width="2"/>
+        <polygon points="100,40 140,100 120,140 80,140 60,100" fill="var(--accent-1)" opacity="0.5" stroke="var(--accent-1)" stroke-width="2"/>
+      </svg>
+    </section>
+    <section id="book" style="margin-top:4rem;">
+      <a href="https://cal.com/hashirjaffry/30min?overlayCalendar=true" target="_blank" class="btn">Book a call</a>
+    </section>
+  </div>
+</body>
+</html>
